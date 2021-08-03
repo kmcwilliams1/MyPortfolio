@@ -1,4 +1,5 @@
-    .main{
+   /*prevents the about me from taking over  */
+   .main{
         margin: 25px 0px;
         padding: 10px 0px;
         display: flex;
@@ -8,8 +9,18 @@
         align-items: stretch;
     }
 
+    /* resizes for mobile */
+    @media screen and (max-width: 768px) {
+        header {
+          flex-direction: column;
+        }
+      
+        main {
+          max-width: 1200px;
+        }
+      }
 
-
+/* makes header all on one line */
 header {
     max-height: max-content;
     width: 100%;
@@ -35,12 +46,12 @@ header h1 {
 
 }
 
-
+/* sections like work and about me */
 h2{
     color: seagreen;
     font-size: xx-large;
 }
-
+ /* makes the about me box */
 .aboutme {
 
         width: 30%;
@@ -48,11 +59,9 @@ h2{
         float: right;
         font-style: italic;
         background-color: lightgray;
-      
-    /* how to put a line on the side? */
 }
 
-
+    /* deals with the project boxes */
 .container{
     height: 250px;
     display: flex;
@@ -60,7 +69,7 @@ h2{
     flex-wrap: wrap;  
     justify-content: space-between;
 }
-    /* deals with the project boxes */
+
 
 .contenador{
     display: flex;
@@ -87,25 +96,18 @@ h2{
     box-shadow: inset 5px 5px 10px gold;
     transition: all .5s ease-in-out;
 }
+
+
 footer {
     border: solid black;
     background-color: violet;
-    bottom: 0;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-    width: 99%;
-    margin: 0;
-    top: 100%;
 }
 
-footer h2{
-    flex: 0 0 20%;
-    text-align: right;
-
-}
 
 footer div {
     flex: 0 0 80%; 
@@ -120,11 +122,5 @@ footer div {
     flex-direction: row;
     
 }
-.content h2 {
-    display: inline-block;
-    padding: 10px;
-    margin: 5px;
-    flex-direction: row;
-    align-items:center ;
-}
-/* why wont it center? */
+
+/* why wont it work!?!?!? */
