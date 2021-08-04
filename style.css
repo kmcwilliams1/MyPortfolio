@@ -70,12 +70,12 @@ h2{
     justify-content: space-between;
 }
 
-
+/* 
 .contenador{
     display: flex;
     flex-wrap: wrap;
   
-}
+} */
 /* makes the first box bigger */
 .box:first-child{
     min-height: 400px;
@@ -128,7 +128,7 @@ footer div {
     background-image: url("enigma.jpg");
 }
 .footloose-image {
-    background-image: url("footloose.jpg");
+    background-image: url("./footloose.jpg");
 }
 .indy-image {
     background-image: url("indy.jpg");
