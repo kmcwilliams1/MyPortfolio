@@ -35,6 +35,7 @@ header {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    background-color: ivory;    
 } 
 
 
@@ -70,12 +71,7 @@ h2{
     justify-content: space-between;
 }
 
-/* 
-.contenador{
-    display: flex;
-    flex-wrap: wrap;
-  
-} */
+
 /* makes the first box bigger */
 .box:first-child{
     min-height: 400px;
