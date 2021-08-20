@@ -1,4 +1,6 @@
-   /*prevents the about me from taking over  */
+
+  
+  /*prevents the about me from taking over  */
    .main{
         margin: 25px 0px;
         padding: 10px 0px;
@@ -7,7 +9,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: stretch;
-        background-color: ivory;
+    
     }
 
     /* resizes for mobile */
@@ -34,8 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    background-color: ivory;    
+    flex-direction: row;  
 } 
 
 
@@ -58,6 +59,7 @@ h2{
 
         width: 30%;
         padding-left: 15px;
+        padding-bottom: 20px;
         float: right;
         font-style: italic;
         background-color: lightgray;
@@ -65,6 +67,8 @@ h2{
 
     /* deals with the project boxes */
 .container{
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;  
@@ -87,6 +91,7 @@ h2{
     max-height: 200px;
     min-height: 200px;
 }
+
 /* gives a cool little glow */
 .box:hover{
     box-shadow: inset 5px 5px 10px gold;
@@ -96,13 +101,7 @@ h2{
 
 footer {
     border: solid black;
-    background-color: violet;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    
+    background-color: violet;   
 }
 
 
@@ -120,14 +119,14 @@ footer div {
     
 }
 
-.enigma-image {
-    background-image: url("enigma.jpg");
+.quiz {
+    background-image: url("Quiz.jpg");
 }
-.footloose-image {
-    background-image: url("./footloose.jpg");
+.weather {
+    background-image: url("./Weather-forecast.jpg");
 }
-.indy-image {
-    background-image: url("indy.jpg");
+.planner {
+    background-image: url("Daily-planner.jpg");
 }
 .statue-image {
     background-image: url("statue.jpg");
